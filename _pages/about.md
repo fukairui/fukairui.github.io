@@ -19,7 +19,7 @@ redirect_from:
 
 I am currently a second-year MS student at the College of Computer Science and Technology, Zhejiang University, under the supervision of Prof. [Kun Kuang](https://kunkuang.github.io/) and [Shengyu Zhang](https://shengyuzhang.github.io/).
 
-My research primarily focuses on the generalizability and personalization of recommender systems. I also tackle the distinctive challenges related to the seamless integration of heterogeneous models across various computational environments, including both edge devices and cloud servers.
+My research primarily focuses on the generalizability and personalization of recommender systems. I also tackle the distinctive challenges related to the seamless integration of heterogeneous models across various computational environments, including both edge devices and cloud servers. Recently I am inerested in the scaling law of recommender system and focus on the efficient inference of large recommendation models when facing much longer user interaction sequences.
 
 I am actively seeking job opportunities and will graduate in March 2026. Please feel free to contact me if there are any suitable positions available.
 
@@ -91,3 +91,7 @@ Kunxi Li\*, Tianyu Zhan\*, **Kairui Fu\***, Shengyu Zhang, Kun Kuang, Jiwei Li, 
 # 📖 Educations
 - *2023.09 - present*, Master, Computer Science and Technology, Zhejiang University, Hangzhou.
 - *2019.09 - 2023.06*, Undergraduate, Turing Class(Chu Kochen Honors College), Computer Science and Technology, Zhejiang University, Hangzhou
+
+
+# 💻 Internships
+- *2025.03 - Present*, [Huawei Noah’s Ark Lab](http://dev3.noahlab.com.hk/index.html), China.
