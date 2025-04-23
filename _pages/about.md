@@ -25,9 +25,9 @@ I am actively seeking job opportunities and will graduate in March 2026. Please 
 
 # 🔥 News
 - *2024.12*: &nbsp;🎉🎉 One co-first-author paper has been accepted to AAAI 2025.
-- *2024.11*: &nbsp;🎉🎉 One first-author paper has been accepted to KDD 2025 August Cycle(Research Track).
-- *2024.08* &nbsp;🥳🥳 I went to Barcelona, Spain to attend the KDD conference to deliver an oral presentation of our paper DIET.
-- *2024.05*: &nbsp;🎉🎉 One first-author paper has been accepted to KDD 2024(Research Track).
+- *2024.11*: &nbsp;🎉🎉 One first-author paper has been accepted to KDD 2025 August Cycle (Research Track).
+- *2024.08*: &nbsp;🥳🥳 I went to Barcelona, Spain to attend the KDD conference to deliver an oral presentation of our paper DIET.
+- *2024.05*: &nbsp;🎉🎉 One first-author paper has been accepted to KDD 2024 (Research Track).
 - *2023.07*: &nbsp;🥳🥳 I went to Fuzhou, China to attend the CICAI conference to deliver an oral presentation and won the Best Paper Award.
 - *2023.06*: &nbsp;🎉🎉 One first-author paper has been accepted to CICAI 2023.
 
@@ -44,10 +44,10 @@ I am actively seeking job opportunities and will graduate in March 2026. Please 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025(to appear)</div><img src='../images/MergeNet.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='../images/MergeNet.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[MergeNet: Knowledge Migration across Heterogeneous Models, Tasks, and Modalities](https://arxiv.org/abs/2404.13322)
+[MergeNet: Knowledge Migration across Heterogeneous Models, Tasks, and Modalities](https://ojs.aaai.org/index.php/AAAI/article/view/32510)
 
 Kunxi Li\*, Tianyu Zhan\*, **Kairui Fu\***, Shengyu Zhang, Kun Kuang, Jiwei Li, Zhou Zhao, Fan Wu, Fei Wu
 
