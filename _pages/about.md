@@ -34,7 +34,7 @@ I am actively seeking job opportunities and will graduate in March 2026. Please 
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='../images/thinkrec.png' alt="sym" width="95%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='../images/thinkrec.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [ThinkRec: Thinking-based recommendation via LLM](https://arxiv.org/abs/2505.15091)
