@@ -19,11 +19,12 @@ redirect_from:
 
 I am currently a second-year MS student at the College of Computer Science and Technology, Zhejiang University, under the supervision of Prof. [Kun Kuang](https://kunkuang.github.io/) and [Shengyu Zhang](https://shengyuzhang.github.io/).
 
-My research primarily focuses on the generalizability and personalization of recommender systems. I also tackle the distinctive challenges related to the seamless integration of heterogeneous models across various computational environments, including both edge devices and cloud servers. Recently I am inerested in the scaling law of recommender system and focus on the efficient inference of large recommendation models when facing much longer user interaction sequences.
+My research primarily focuses on the generalizability and personalization of recommender systems. I also tackle the distinctive challenges related to the seamless integration of heterogeneous models across various computational environments, including both edge devices and cloud servers. Recently I am inerested in the scaling law of recommender system and recommendation with large language model. Meanwhile, I also focus on the efficient inference of large recommendation models when facing much longer user interaction sequences.
 
 I am actively seeking job opportunities and will graduate in March 2026. Please feel free to contact me if there are any suitable positions available.
 
 # 🔥 News
+- *2025.05*: &nbsp;📰📰 One paper has been avaliable on Arxiv about LLM thinking-emhanced recommendation.
 - *2024.12*: &nbsp;🎉🎉 One co-first-author paper has been accepted to AAAI 2025.
 - *2024.11*: &nbsp;🎉🎉 One first-author paper has been accepted to KDD 2025 August Cycle (Research Track).
 - *2024.08*: &nbsp;🥳🥳 I went to Barcelona, Spain to attend the KDD conference to deliver an oral presentation of our paper DIET.
@@ -33,10 +34,21 @@ I am actively seeking job opportunities and will graduate in March 2026. Please 
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025 August Cycle(to appear)</div><img src='../images/Forward-OFA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='../images/thinkrec.png' alt="sym" width="95%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Forward Once for All: Structural Parameterized Adaptation for Efficient Cloud-coordinated On-device Recommendation](https://arxiv.org/abs/2501.02837)
+[ThinkRec: Thinking-based recommendation via LLM](https://arxiv.org/abs/2505.15091)
+
+Qihang Yu\*, **Kairui Fu\***, Shengyu Zhang, Zheqi Lv, Fan Wu, Fei Wu
+
+- Almost the first emphasize the importance of activating thinking of LLMs to make recommendations more interpretable and effective.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025 August Cycle</div><img src='../images/Forward-OFA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Forward Once for All: Structural Parameterized Adaptation for Efficient Cloud-coordinated On-device Recommendation](https://dl.acm.org/doi/10.1145/3690624.3709178)
 
 **Kairui Fu**, Zheqi Lv, Shengyu Zhang, Fan Wu, Kun Kuang
 
@@ -94,4 +106,5 @@ Kunxi Li\*, Tianyu Zhan\*, **Kairui Fu\***, Shengyu Zhang, Kun Kuang, Jiwei Li, 
 
 
 # 💻 Internships
-- *2025.03 - Present*, [Huawei Noah’s Ark Lab](http://dev3.noahlab.com.hk/index.html), China.
+- *2025.02 - 2025.05*, [Huawei Noah’s Ark Lab](http://dev3.noahlab.com.hk/index.html), China.
+- *2025.05 - Present*, [Taobao & Tmall Group of Alibaba](https://ali-home.alibaba.com/en-us/), China.
