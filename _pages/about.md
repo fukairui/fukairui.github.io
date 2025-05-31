@@ -24,7 +24,7 @@ My research primarily focuses on the generalizability and personalization of rec
 I am actively seeking job opportunities and will graduate in March 2026. Please feel free to contact me if there are any suitable positions available.
 
 # 🔥 News
-- *2025.05*: &nbsp;📰📰 One paper has been avaliable on Arxiv about LLM thinking-emhanced recommendation.
+- *2025.05*: &nbsp;📰📰 One paper has been avaliable on Arxiv about LLM thinking-enhanced recommendation.
 - *2024.12*: &nbsp;🎉🎉 One co-first-author paper has been accepted to AAAI 2025.
 - *2024.11*: &nbsp;🎉🎉 One first-author paper has been accepted to KDD 2025 August Cycle (Research Track).
 - *2024.08*: &nbsp;🥳🥳 I went to Barcelona, Spain to attend the KDD conference to deliver an oral presentation of our paper DIET.
