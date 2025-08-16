@@ -58,7 +58,7 @@ Tackling Device Data Distribution Real-time Shift via Prototype-based Parameter 
 
 Zheqi Lv, Wen Qiao Zhang, **Kairui Fu**, Qi Tian, Shengyu Zhang, Jiajie Su, Jingyuan Chen, Kun Kuang, Fei Wu
 
-- The composition of corse and fine-grained intersts for tackling the on-device continuous data distribution shift in both vision task and recommendation task.
+- The composition of corse and fine-grained intersts for tackling the on-device continuous data distribution shift in both vision and recommendation.
 </div>
 </div>
 
