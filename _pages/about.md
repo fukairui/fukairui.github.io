@@ -36,6 +36,32 @@ I am actively seeking job opportunities and will graduate in March 2026. Please 
 
 # 📝 Publications 
 
+
+*\* denote the authors contributed equally.*
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM 2025</div><img src='../images/CHORD.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+CHORD: Customizing Hybrid-precision On-device Model for Sequential Recommendation with Device-cloud Collaboration
+
+
+TianQi Liu\*, **Kairui Fu\***, Shengyu Zhang, Wenyan Fan, Zhaocheng Du, Jieming Zhu, Fan Wu, Fei Wu
+
+- A framework for device-cloud collaborative personalized mixed-precision quantization that generates lightweight networks for heterogeneous.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM 2025</div><img src='../images/persona.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Tackling Device Data Distribution Real-time Shift via Prototype-based Parameter Editing
+
+Zheqi Lv, Wen Qiao Zhang, **Kairui Fu**, Qi Tian, Shengyu Zhang, Jiajie Su, Jingyuan Chen, Kun Kuang, Fei Wu
+
+- The composition of corse and fine-grained intersts for tackling the on-device continuous data distribution shift in both vision task and recommendation task.
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='../images/thinkrec.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -90,8 +116,6 @@ Kunxi Li\*, Tianyu Zhan\*, **Kairui Fu\***, Shengyu Zhang, Kun Kuang, Jiwei Li, 
 - Investigate the inconsistent distribution of users in recommender system and the difficulty in causal structure learning accompanied by the intervention of recommender system.
 </div>
 </div>
-
-*\* denote the authors contributed equally.*
 
 # 🎖 Honors and Awards
 - *2024.12* Huawei Jingying Scholarship (Top 1%)
