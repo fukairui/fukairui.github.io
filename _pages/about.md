@@ -51,7 +51,7 @@ TianQi Liu\*, **Kairui Fu\***, Shengyu Zhang, Wenyan Fan, Zhaocheng Du, Jieming 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM 2025</div><img src='../images/persona.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM 2025</div><img src='../images/Persona.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Tackling Device Data Distribution Real-time Shift via Prototype-based Parameter Editing
