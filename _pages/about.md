@@ -3,7 +3,7 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
@@ -19,22 +19,23 @@ redirect_from:
 
 I am currently a second-year MS student at the College of Computer Science and Technology, Zhejiang University, under the supervision of Prof. [Kun Kuang](https://kunkuang.github.io/) and [Shengyu Zhang](https://shengyuzhang.github.io/).
 
-My research primarily focuses on the generalizability and personalization of recommender systems. I also tackle the distinctive challenges related to the seamless integration of heterogeneous models across various computational environments, including both edge devices and cloud servers. Recently I am inerested in the scaling law of recommender system and recommendation with large language model. Meanwhile, I also focus on the efficient inference of large recommendation models when facing much longer user interaction sequences.
+My research primarily focuses on the generalizability and personalization of recommender systems. I also tackle the distinctive challenges related to the seamless integration of heterogeneous models across various computational environments, including both edge devices and cloud servers. Recently, I am interested in the scaling law of recommender system and recommendation with large language model. Meanwhile, I also focus on the efficient inference of large recommendation models when facing much longer user interaction sequences.
 
 I am actively seeking job opportunities and will graduate in March 2026. Please feel free to contact me if there are any suitable positions available.
 
 # 🔥 News
 - *2025.07*: &nbsp;🎉🎉 One co-first-author paper has been accepted to MM 2025.
 - *2025.07*: &nbsp;🎉🎉 One paper has been accepted to MM 2025.
-- *2025.05*: &nbsp;📰📰 One paper has been avaliable on Arxiv about LLM thinking-enhanced recommendation.
+- *2025.07*: &nbsp;📊📊 Forward-OFA has been deployed in the Ascend Community of Huawei using [NPU](https://gitee.com/ouo-ovo/forward-ofa/).
+- *2025.05*: &nbsp;📰📰 One paper has been available on Arxiv about LLM thinking-enhanced recommendation.
 - *2024.12*: &nbsp;🎉🎉 One co-first-author paper has been accepted to AAAI 2025.
 - *2024.11*: &nbsp;🎉🎉 One first-author paper has been accepted to KDD 2025 August Cycle (Research Track).
-- *2024.08*: &nbsp;🥳🥳 I went to Barcelona, Spain to attend the KDD conference to deliver an oral presentation of our paper DIET.
+- *2024.08*: &nbsp;🥳🥳 I went to Barcelona, Spain, to attend the KDD conference to deliver an oral presentation of our paper DIET.
 - *2024.05*: &nbsp;🎉🎉 One first-author paper has been accepted to KDD 2024 (Research Track).
-- *2023.07*: &nbsp;🥳🥳 I went to Fuzhou, China to attend the CICAI conference to deliver an oral presentation and won the Best Paper Award.
+- *2023.07*: &nbsp;🥳🥳 I went to Fuzhou, China, to attend the CICAI conference to deliver an oral presentation and won the Best Paper Award.
 - *2023.06*: &nbsp;🎉🎉 One first-author paper has been accepted to CICAI 2023.
 
-# 📝 Publications 
+# 📝 Publications
 
 
 *\* denote the authors contributed equally.*
@@ -58,7 +59,7 @@ Tackling Device Data Distribution Real-time Shift via Prototype-based Parameter 
 
 Zheqi Lv, Wen Qiao Zhang, **Kairui Fu**, Qi Tian, Shengyu Zhang, Jiajie Su, Jingyuan Chen, Kun Kuang, Fei Wu
 
-- The composition of corse and fine-grained intersts for tackling the on-device continuous data distribution shift in both vision and recommendation.
+- The composition of coarse and fine-grained interests for tackling the on-device continuous data distribution shift in both vision and recommendation.
 </div>
 </div>
 
@@ -69,7 +70,9 @@ Zheqi Lv, Wen Qiao Zhang, **Kairui Fu**, Qi Tian, Shengyu Zhang, Jiajie Su, Jing
 
 Qihang Yu\*, **Kairui Fu\***, Shengyu Zhang, Zheqi Lv, Fan Wu, Fei Wu
 
-- Almost the first emphasize the importance of activating thinking of LLMs to make recommendations more interpretable and effective.
+[Project](https://github.com/Yu-Qi-hang/ThinkRec)
+
+- Almost the first emphasizes the importance of activating the thinking of LLMs to make recommendations more interpretable and effective.
 </div>
 </div>
 
@@ -79,6 +82,8 @@ Qihang Yu\*, **Kairui Fu\***, Shengyu Zhang, Zheqi Lv, Fan Wu, Fei Wu
 [Forward Once for All: Structural Parameterized Adaptation for Efficient Cloud-coordinated On-device Recommendation](https://dl.acm.org/doi/10.1145/3690624.3709178)
 
 **Kairui Fu**, Zheqi Lv, Shengyu Zhang, Fan Wu, Kun Kuang
+
+[Project](https://gitee.com/ouo-ovo/forward-ofa/)
 
 - An early attempt to investigate the joint customization of both structure and parameters, analyzing the challenges of interest heterogeneity, network transmission, and on-device inference simultaneously.
 </div>
@@ -91,7 +96,9 @@ Qihang Yu\*, **Kairui Fu\***, Shengyu Zhang, Zheqi Lv, Fan Wu, Fei Wu
 
 Kunxi Li\*, Tianyu Zhan\*, **Kairui Fu\***, Shengyu Zhang, Kun Kuang, Jiwei Li, Zhou Zhao, Fan Wu, Fei Wu
 
-- Leverage parameters as the medium to achieve knowledge transfer between heterogeneous models, tasks and modalities.
+[Project](https://github.com/Fantasylii/mergenet)
+
+- Leverage parameters as the medium to achieve knowledge transfer between heterogeneous models, tasks, and modalities.
 </div>
 </div>
 
@@ -113,7 +120,7 @@ Kunxi Li\*, Tianyu Zhan\*, **Kairui Fu\***, Shengyu Zhang, Kun Kuang, Jiwei Li, 
 
 **Kairui Fu**, Qiaowei Miao, Shengyu Zhang, Kun Kuang, Fei Wu
 
-- Investigate the inconsistent distribution of users in recommender system and the difficulty in causal structure learning accompanied by the intervention of recommender system.
+- Investigate the inconsistent distribution of users in recommender system and the difficulty in causal structure learning, accompanied by the intervention of recommender system.
 </div>
 </div>
 
