@@ -19,7 +19,7 @@ redirect_from:
 
 I am currently a second-year MS student at the College of Computer Science and Technology, Zhejiang University, under the supervision of Prof. [Kun Kuang](https://kunkuang.github.io/) and [Shengyu Zhang](https://shengyuzhang.github.io/).
 
-My research primarily focuses on the generalizability and personalization of recommender systems. I also tackle the distinctive challenges related to the seamless integration of heterogeneous models across various computational environments, including both edge devices and cloud servers. Recently, I am interested in the scaling law of recommender system and recommendation with large language model. Meanwhile, I also focus on the efficient inference of large recommendation models when facing much longer user interaction sequences.
+My research primarily focuses on the generalizability and personalization of recommender systems. I also tackle the distinctive challenges related to the seamless integration of heterogeneous models across various computational environments, including both mobile devices and cloud servers. Recently I am inerested in the recommendation with large language model and the efficient inference of large recommenders when facing much longer user interaction sequences.
 
 I am actively seeking job opportunities and will graduate in March 2026. Please feel free to contact me if there are any suitable positions available.
 
@@ -27,12 +27,12 @@ I am actively seeking job opportunities and will graduate in March 2026. Please 
 - *2025.07*: &nbsp;🎉🎉 One co-first-author paper has been accepted to MM 2025.
 - *2025.07*: &nbsp;🎉🎉 One paper has been accepted to MM 2025.
 - *2025.07*: &nbsp;📊📊 Forward-OFA has been deployed in the Ascend Community of Huawei using [NPU](https://gitee.com/ouo-ovo/forward-ofa/).
-- *2025.05*: &nbsp;📰📰 One paper has been available on Arxiv about LLM thinking-enhanced recommendation.
+- *2025.05*: &nbsp;📰📰 One paper has been avaliable on Arxiv about LLM thinking-enhanced recommendation.
 - *2024.12*: &nbsp;🎉🎉 One co-first-author paper has been accepted to AAAI 2025.
 - *2024.11*: &nbsp;🎉🎉 One first-author paper has been accepted to KDD 2025 August Cycle (Research Track).
-- *2024.08*: &nbsp;🥳🥳 I went to Barcelona, Spain, to attend the KDD conference to deliver an oral presentation of our paper DIET.
+- *2024.08*: &nbsp;🥳🥳 I went to Barcelona, Spain to attend the KDD conference to deliver an oral presentation of our paper DIET.
 - *2024.05*: &nbsp;🎉🎉 One first-author paper has been accepted to KDD 2024 (Research Track).
-- *2023.07*: &nbsp;🥳🥳 I went to Fuzhou, China, to attend the CICAI conference to deliver an oral presentation and won the Best Paper Award.
+- *2023.07*: &nbsp;🥳🥳 I went to Fuzhou, China to attend the CICAI conference to deliver an oral presentation and won the Best Paper Award.
 - *2023.06*: &nbsp;🎉🎉 One first-author paper has been accepted to CICAI 2023.
 
 # 📝 Publications
@@ -40,7 +40,7 @@ I am actively seeking job opportunities and will graduate in March 2026. Please 
 
 *\* denote the authors contributed equally.*
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM 2025</div><img src='../images/CHORD.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM 2025 (To appear)</div><img src='../images/CHORD.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 CHORD: Customizing Hybrid-precision On-device Model for Sequential Recommendation with Device-cloud Collaboration
@@ -48,18 +48,18 @@ CHORD: Customizing Hybrid-precision On-device Model for Sequential Recommendatio
 
 TianQi Liu\*, **Kairui Fu\***, Shengyu Zhang, Wenyan Fan, Zhaocheng Du, Jieming Zhu, Fan Wu, Fei Wu
 
-- A framework for device-cloud collaborative personalized mixed-precision quantization that generates lightweight networks for heterogeneous.
+- A framework for device-cloud collaborative personalized mixed-precision quantization that generates lightweight networks for heterogeneous mobile devices.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM 2025</div><img src='../images/Persona.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM 2025 (To appear)</div><img src='../images/Persona.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Tackling Device Data Distribution Real-time Shift via Prototype-based Parameter Editing
 
 Zheqi Lv, Wen Qiao Zhang, **Kairui Fu**, Qi Tian, Shengyu Zhang, Jiajie Su, Jingyuan Chen, Kun Kuang, Fei Wu
 
-- The composition of coarse and fine-grained interests for tackling the on-device continuous data distribution shift in both vision and recommendation.
+- The composition of corse and fine-grained intersts for tackling the on-device continuous data distribution shift in both vision and recommendation tasks.
 </div>
 </div>
 
@@ -70,9 +70,7 @@ Zheqi Lv, Wen Qiao Zhang, **Kairui Fu**, Qi Tian, Shengyu Zhang, Jiajie Su, Jing
 
 Qihang Yu\*, **Kairui Fu\***, Shengyu Zhang, Zheqi Lv, Fan Wu, Fei Wu
 
-[Project](https://github.com/Yu-Qi-hang/ThinkRec)
-
-- Almost the first emphasizes the importance of activating the thinking of LLMs to make recommendations more interpretable and effective.
+- Almost the first emphasize the importance of activating thinking of LLMs to make recommendations more interpretable and effective.
 </div>
 </div>
 
@@ -98,7 +96,7 @@ Kunxi Li\*, Tianyu Zhan\*, **Kairui Fu\***, Shengyu Zhang, Kun Kuang, Jiwei Li, 
 
 [Project](https://github.com/Fantasylii/mergenet)
 
-- Leverage parameters as the medium to achieve knowledge transfer between heterogeneous models, tasks, and modalities.
+- Leverage parameters as the medium to achieve knowledge transfer between heterogeneous models, tasks and modalities.
 </div>
 </div>
 
@@ -120,7 +118,7 @@ Kunxi Li\*, Tianyu Zhan\*, **Kairui Fu\***, Shengyu Zhang, Kun Kuang, Jiwei Li, 
 
 **Kairui Fu**, Qiaowei Miao, Shengyu Zhang, Kun Kuang, Fei Wu
 
-- Investigate the inconsistent distribution of users in recommender system and the difficulty in causal structure learning, accompanied by the intervention of recommender system.
+- Investigate the inconsistent distribution of users in recommender system and the difficulty in causal structure learning accompanied by the intervention of recommender system.
 </div>
 </div>
 
