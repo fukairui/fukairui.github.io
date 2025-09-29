@@ -24,6 +24,7 @@ My research primarily focuses on the generalizability and personalization of rec
 I am actively seeking job opportunities and will graduate in March 2026. Please feel free to contact me if there are any suitable positions available.
 
 # 🔥 News
+- *2025.09*: &nbsp;📰📰 One paper has been deployed in Taobao and available on Arxiv about generative retrieval with semantic identifiers.
 - *2025.07*: &nbsp;🎉🎉 One co-first-author paper has been accepted to MM 2025.
 - *2025.07*: &nbsp;🎉🎉 One paper has been accepted to MM 2025.
 - *2025.07*: &nbsp;📊📊 Forward-OFA has been deployed in the Ascend Community of Huawei using [NPU](https://gitee.com/ouo-ovo/forward-ofa/).
@@ -39,6 +40,21 @@ I am actively seeking job opportunities and will graduate in March 2026. Please 
 
 
 *\* denote the authors contributed equally.*
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='../images/FORGE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[FORGE: Forming Semantic Identifiers for Generative Retrieval in Industrial Datasets](https://arxiv.org/abs/2509.20904)
+
+**Kairui Fu**, Tao Zhang, Shuwen Xiao, Ziyang Wang, Xinming Zhang, Chenchi Zhang, Yuliang Yan, Junjun Zheng, Yu Li, Zhihong Chen, Jian Wu, Xiangheng Kong, Shengyu Zhang, Kun Kuang, Yuning Jiang, Bo Zheng
+
+[Huggingface](https://huggingface.co/AL-GR)<span style="white-space: pre;">	</span>[Github](https://github.com/selous123/al_sid)<span style="white-space: pre;">	</span>[知乎](https://zhuanlan.zhihu.com/p/1956015687244952683)
+
+- The first industrial benchmark about generative retrieval with semantic identifiers, which contains 14 billion user interactions and multimodal features of 250 million items sampled from Taobao.
+- Subsequent proposed otimizations of data modality and ID collisions are validated with both offline (15\% improvements on HitRate) and online (0.35% improvements on transaction count) experiments in the "Guess You Like" Section of Taobao.
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM 2025 (To appear)</div><img src='../images/CHORD.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -69,6 +85,8 @@ Zheqi Lv, Wen Qiao Zhang, **Kairui Fu**, Qi Tian, Shengyu Zhang, Jiajie Su, Jing
 [ThinkRec: Thinking-based recommendation via LLM](https://arxiv.org/abs/2505.15091)
 
 Qihang Yu\*, **Kairui Fu\***, Shengyu Zhang, Zheqi Lv, Fan Wu, Fei Wu
+
+[Project](https://github.com/Yu-Qi-hang/ThinkRec)
 
 - Almost the first emphasizes the importance of activating the thinking of LLMs to make recommendations more interpretable and effective.
 </div>
