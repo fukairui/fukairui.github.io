@@ -51,16 +51,15 @@ I am actively seeking job opportunities and will graduate in March 2026. Please 
 [Huggingface](https://huggingface.co/AL-GR)<span style="white-space: pre;">	</span>[Github](https://github.com/selous123/al_sid)<span style="white-space: pre;">	</span>[知乎](https://zhuanlan.zhihu.com/p/1956015687244952683)
 
 - The first industrial benchmark about generative retrieval with semantic identifiers, which contains 14 billion user interactions and multimodal features of 250 million items sampled from Taobao.
-- Subsequent proposed otimizations of data modality and ID collisions are validated with both offline (15\% improvements on HitRate) and online (0.35% improvements on transaction count) experiments in the "Guess You Like" Section of Taobao.
+- Subsequent proposed optimizations of data modality and ID collisions are validated with both offline (15\% improvements on HitRate) and online (0.35% improvements on transaction count) experiments in the "Guess You Like" Section of Taobao.
 </div>
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM 2025 (To appear)</div><img src='../images/CHORD.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM 2025</div><img src='../images/CHORD.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-CHORD: Customizing Hybrid-precision On-device Model for Sequential Recommendation with Device-cloud Collaboration
-
+[CHORD: Customizing Hybrid-precision On-device Model for Sequential Recommendation with Device-cloud Collaboration](https://arxiv.org/abs/2510.03038)
 
 TianQi Liu\*, **Kairui Fu\***, Shengyu Zhang, Wenyan Fan, Zhaocheng Du, Jieming Zhu, Fan Wu, Fei Wu
 
@@ -68,10 +67,10 @@ TianQi Liu\*, **Kairui Fu\***, Shengyu Zhang, Wenyan Fan, Zhaocheng Du, Jieming 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM 2025 (To appear)</div><img src='../images/Persona.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM 2025</div><img src='../images/Persona.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Tackling Device Data Distribution Real-time Shift via Prototype-based Parameter Editing
+[Tackling Device Data Distribution Real-time Shift via Prototype-based Parameter Editing](https://arxiv.org/abs/2509.06552)
 
 Zheqi Lv, Wen Qiao Zhang, **Kairui Fu**, Qi Tian, Shengyu Zhang, Jiajie Su, Jingyuan Chen, Kun Kuang, Fei Wu
 
