@@ -17,11 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a second-year MS student at the College of Computer Science and Technology, Zhejiang University, under the supervision of Prof. [Kun Kuang](https://kunkuang.github.io/) and [Shengyu Zhang](https://shengyuzhang.github.io/).
+I am currently a third-year MS student at the College of Computer Science and Technology, Zhejiang University, under the supervision of Prof. [Kun Kuang](https://scholar.google.com/citations?hl=zh-CN&user=FOsNiMQAAAAJ&view_op=list_works&sortby=pubdate) and [Shengyu Zhang](https://scholar.google.com/citations?user=l4Dyt7EAAAAJ&hl=en).
 
-My research primarily focuses on the generalizability and personalization of recommender systems. I also tackle the distinctive challenges related to the seamless integration of heterogeneous models across various computational environments, including both mobile devices and cloud servers. Recently, I am interested in the recommendations with large language models and the efficient inference of large recommenders when facing much longer user interaction sequences.
+My research primarily focuses on the generalizability and personalization of recommender systems. Recently, I am interested in both recommendations with large language models and the efficient inference of large recommenders when facing much longer user interaction sequences. Meanwhile, I also tackle the distinctive challenges involved in integrating heterogeneous models across diverse computational environments like mobile devices and cloud servers in a seamless and effective manner.
 
-I am actively seeking job opportunities and will graduate in March 2026. Please feel free to contact me if there are any suitable positions available.
+I am currently seeking job opportunities and will graduate in March 2026. If you have any suitable positions, please feel free to reach out.
 
 # 🔥 News
 - *2025.09*: &nbsp;📰📰 One paper has been deployed in Taobao and available on Arxiv about generative retrieval with semantic identifiers.
@@ -48,19 +48,20 @@ I am actively seeking job opportunities and will graduate in March 2026. Please 
 
 **Kairui Fu**, Tao Zhang, Shuwen Xiao, Ziyang Wang, Xinming Zhang, Chenchi Zhang, Yuliang Yan, Junjun Zheng, Yu Li, Zhihong Chen, Jian Wu, Xiangheng Kong, Shengyu Zhang, Kun Kuang, Yuning Jiang, Bo Zheng
 
-[Huggingface](https://huggingface.co/AL-GR)<span style="white-space: pre;">	</span>[Github](https://github.com/selous123/al_sid)<span style="white-space: pre;">	</span>[知乎](https://zhuanlan.zhihu.com/p/1956015687244952683)
+[Huggingface](https://huggingface.co/AL-GR)<span style="white-space: pre;">	</span>[Github](https://github.com/selous123/al_sid)<span style="white-space: pre;">	</span>[知乎](https://zhuanlan.zhihu.com/p/1956015687244952683)<span style="white-space: pre;">     </span>[Wechat](https://mp.weixin.qq.com/s/c9oShjkLwmIzutzpcVxu6w)
 
-- The first industrial benchmark about generative retrieval with semantic identifiers, which contains 14 billion user interactions and multimodal features of 250 million items sampled from Taobao.
+- The first industrial dataset about generative retrieval with semantic identifiers, which contains 14 billion user interactions and multimodal features of 250 million items sampled from Taobao.
 - Subsequent proposed otimizations of data modality and ID collisions are validated with both offline (15\% improvements on HitRate) and online (0.35% improvements on transaction count) experiments in the "Guess You Like" Section of Taobao.
 </div>
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM 2025 (To appear)</div><img src='../images/CHORD.png' alt="sym" width="100%"></div></div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM 2025</div><img src='../images/CHORD.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-CHORD: Customizing Hybrid-precision On-device Model for Sequential Recommendation with Device-cloud Collaboration
-
+[CHORD: Customizing Hybrid-precision On-device Model for Sequential Recommendation with Device-cloud Collaboration](https://dl.acm.org/doi/10.1145/3746027.3755632)
 
 TianQi Liu\*, **Kairui Fu\***, Shengyu Zhang, Wenyan Fan, Zhaocheng Du, Jieming Zhu, Fan Wu, Fei Wu
 
@@ -68,12 +69,12 @@ TianQi Liu\*, **Kairui Fu\***, Shengyu Zhang, Wenyan Fan, Zhaocheng Du, Jieming 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM 2025 (To appear)</div><img src='../images/Persona.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM 2025</div><img src='../images/Persona.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Tackling Device Data Distribution Real-time Shift via Prototype-based Parameter Editing
+[Tackling Device Data Distribution Real-time Shift via Prototype-based Parameter Editing](https://dl.acm.org/doi/10.1145/3746027.3754895)
 
-Zheqi Lv, Wen Qiao Zhang, **Kairui Fu**, Qi Tian, Shengyu Zhang, Jiajie Su, Jingyuan Chen, Kun Kuang, Fei Wu
+Zheqi Lv, Wenqiao Zhang, **Kairui Fu**, Qi Tian, Shengyu Zhang, Jiajie Su, Jingyuan Chen, Kun Kuang, Fei Wu
 
 - The composition of coarse and fine-grained intersts for tackling the on-device continuous data distribution shift in both vision and recommendation tasks.
 </div>
@@ -92,7 +93,7 @@ Qihang Yu\*, **Kairui Fu\***, Shengyu Zhang, Zheqi Lv, Fan Wu, Fei Wu
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025 August Cycle</div><img src='../images/Forward-OFA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025</div><img src='../images/Forward-OFA.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Forward Once for All: Structural Parameterized Adaptation for Efficient Cloud-coordinated On-device Recommendation](https://dl.acm.org/doi/10.1145/3690624.3709178)
@@ -112,7 +113,7 @@ Qihang Yu\*, **Kairui Fu\***, Shengyu Zhang, Zheqi Lv, Fan Wu, Fei Wu
 
 Kunxi Li\*, Tianyu Zhan\*, **Kairui Fu\***, Shengyu Zhang, Kun Kuang, Jiwei Li, Zhou Zhao, Fan Wu, Fei Wu
 
-[Project](https://github.com/Fantasylii/mergenet)
+[Project](https://github.com/Fantasylii/mergenet)<span style="white-space: pre;">     </span>[知乎](https://zhuanlan.zhihu.com/p/20574047950)
 
 - Leverage parameters as the medium to achieve knowledge transfer between heterogeneous models, tasks, and modalities.
 </div>
@@ -141,6 +142,7 @@ Kunxi Li\*, Tianyu Zhan\*, **Kairui Fu\***, Shengyu Zhang, Kun Kuang, Jiwei Li, 
 </div>
 
 # 🎖 Honors and Awards
+- *2025.10* National Scholarship (Top 1%)
 - *2024.12* Huawei Jingying Scholarship (Top 1%)
 - *2023.7* Best Paper Award in CICAI 2023 (Top 1)
 - *2023.6* Outstanding Graduates of Zhejiang University
