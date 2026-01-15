@@ -22,11 +22,11 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Kairui Fu"
-  avatar           : "./images/fig.jpg"
+  avatar           : "./images/FIG.png"
   bio              : "Zhejiang University"
   location         : "Hangzhou, China"
   employer         :
-  pubmed           : 
+  pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=KjyK1WgAAAAJ&hl=zh-CN"
   email            : "fukairui.fkr@zju.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
@@ -51,7 +51,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          :
   vine             :
   weibo            :
   xing             :

@@ -24,6 +24,7 @@ My research primarily focuses on the generalizability and personalization of rec
 I am currently seeking job opportunities and will graduate in March 2026. If you have any suitable positions, please feel free to reach out.
 
 # 🔥 News
+- *2025.07*: &nbsp;🎉🎉 Three co-first-author papers have been accepted to the research/industry/short paper track of TheWebConf 2026.
 - *2025.09*: &nbsp;📰📰 One paper has been deployed in Taobao and available on Arxiv about generative retrieval with semantic identifiers.
 - *2025.07*: &nbsp;🎉🎉 One co-first-author paper has been accepted to MM 2025.
 - *2025.07*: &nbsp;🎉🎉 One paper has been accepted to MM 2025.
@@ -40,6 +41,44 @@ I am currently seeking job opportunities and will graduate in March 2026. If you
 
 
 *\* denote the authors contributed equally.*
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TheWebConf 2026</div><img src='../images/PI2I.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+PI2I: A Personalized Item-Based Collaborative Filtering Retrieval Framework (To appear)
+
+Shaoqing Wang\*, Yingcai Ma\*, **Kairui Fu\***, Ziyang Wang, Dunxian Huang, YuliangYan, Jian Wu
+
+- A novel two-stage retrieval framework that enhances the personalization capabilities of traditional collaborative filtering.
+- Deployed on Taobao’s "Guess You Like" section, PI2I achieved a 1.05% increase in online transaction rates.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TheWebConf 2026</div><img src='../images/thinkrec.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[ThinkRec: Thinking-based recommendation via LLM](https://arxiv.org/abs/2505.15091)
+
+Qihang Yu\*, **Kairui Fu\***, Shengyu Zhang, Zheqi Lv, Fan Wu, Fei Wu
+
+[Project](https://github.com/Yu-Qi-hang/ThinkRec)
+
+- Almost the first emphasizes the importance of activating the thinking of LLMs to make recommendations more interpretable and effective.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TheWebConf 2026</div><img src='../images/RASTP.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[RASTP: Representation-Aware Semantic Token Pruning for Generative Recommendation with Semantic Identifiers](https://arxiv.org/abs/2511.16943)
+
+Tianyu Zhan\*, **Kairui Fu\***, Zheqi Lv, Shengyu Zhang
+
+[Project](https://github.com/Yuzt-zju/RASTP)
+
+- An effective strategy to selectively prunes less informative tokens in the input sequence for semantic identifiers based recommendation.
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='../images/FORGE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -63,7 +102,7 @@ I am currently seeking job opportunities and will graduate in March 2026. If you
 
 [CHORD: Customizing Hybrid-precision On-device Model for Sequential Recommendation with Device-cloud Collaboration](https://dl.acm.org/doi/10.1145/3746027.3755632)
 
-TianQi Liu\*, **Kairui Fu\***, Shengyu Zhang, Wenyan Fan, Zhaocheng Du, Jieming Zhu, Fan Wu, Fei Wu
+Tianqi Liu\*, **Kairui Fu\***, Shengyu Zhang, Wenyan Fan, Zhaocheng Du, Jieming Zhu, Fan Wu, Fei Wu
 
 - A framework for device-cloud collaborative personalized mixed-precision quantization that generates lightweight networks for heterogeneous mobile devices.
 </div>
@@ -77,19 +116,6 @@ TianQi Liu\*, **Kairui Fu\***, Shengyu Zhang, Wenyan Fan, Zhaocheng Du, Jieming 
 Zheqi Lv, Wenqiao Zhang, **Kairui Fu**, Qi Tian, Shengyu Zhang, Jiajie Su, Jingyuan Chen, Kun Kuang, Fei Wu
 
 - The composition of coarse and fine-grained intersts for tackling the on-device continuous data distribution shift in both vision and recommendation tasks.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='../images/thinkrec.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[ThinkRec: Thinking-based recommendation via LLM](https://arxiv.org/abs/2505.15091)
-
-Qihang Yu\*, **Kairui Fu\***, Shengyu Zhang, Zheqi Lv, Fan Wu, Fei Wu
-
-[Project](https://github.com/Yu-Qi-hang/ThinkRec)
-
-- Almost the first emphasizes the importance of activating the thinking of LLMs to make recommendations more interpretable and effective.
 </div>
 </div>
 
