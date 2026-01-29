@@ -80,14 +80,14 @@ Tianyu Zhan\*, **Kairui Fu\***, Zheqi Lv, Shengyu Zhang
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TheWebConf 2026</div><img src='../images/RASTP.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TheWebConf 2026</div><img src='../images/MALLOC.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MALLOC: Benchmarking the Memory-aware Long Sequence Compression for Large Sequential Recommendation](https://arxiv.org/abs/2601.20234)
 
 Qihang Yu\*, **Kairui Fu\***, Zhaocheng Du\*, Yuxuan Si, Kaiyuan Li, Weihao Zhao, Zhicheng Zhang, Jieming Zhu, Quanyu Dai, Zhenhua Dong, Shengyu Zhang, Kun Kuang, Fei Wu
 
-[Project](https://github.com/Yuzt-zju/RASTP)
+[Project](https://anonymous.4open.science/r/MALLOC)
 
 - A benchmark that establishes a rigorous multi-dimensional evaluation protocol that couples standard ranking metrics with system-level constraints for long-sequence compression in large recommender systems. 
 </div>
