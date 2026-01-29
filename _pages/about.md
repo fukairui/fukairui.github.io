@@ -24,12 +24,12 @@ My research primarily focuses on the generalizability and personalization of rec
 I am currently seeking job opportunities and will graduate in March 2026. If you have any suitable positions, please feel free to reach out.
 
 # 🔥 News
-- *2025.07*: &nbsp;🎉🎉 Three co-first-author papers have been accepted to the research/industry/short paper track of TheWebConf 2026.
-- *2025.09*: &nbsp;📰📰 One paper has been deployed in Taobao and available on Arxiv about generative retrieval with semantic identifiers.
+- *2026.01*: &nbsp;🎉🎉 Three co-first-author papers have been accepted to the research/industry/short paper track of TheWebConf 2026.
+- *2026.01*: &nbsp;📰📰 One paper has been available on Arxiv about large sequential recommendation.
+- *2025.09*: &nbsp;📰📰 One paper has been deployed in Taobao and is available on Arxiv about generative retrieval with semantic identifiers.
 - *2025.07*: &nbsp;🎉🎉 One co-first-author paper has been accepted to MM 2025.
 - *2025.07*: &nbsp;🎉🎉 One paper has been accepted to MM 2025.
 - *2025.07*: &nbsp;📊📊 Forward-OFA has been deployed in the Ascend Community of Huawei using [NPU](https://gitee.com/ouo-ovo/forward-ofa/).
-- *2025.05*: &nbsp;📰📰 One paper has been available on Arxiv about LLM thinking-enhanced recommendation.
 - *2024.12*: &nbsp;🎉🎉 One co-first-author paper has been accepted to AAAI 2025.
 - *2024.11*: &nbsp;🎉🎉 One first-author paper has been accepted to KDD 2025 August Cycle (Research Track).
 - *2024.08*: &nbsp;🥳🥳 I went to Barcelona, Spain, to attend the KDD conference to deliver an oral presentation of our paper DIET.
@@ -45,7 +45,7 @@ I am currently seeking job opportunities and will graduate in March 2026. If you
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TheWebConf 2026</div><img src='../images/PI2I.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-PI2I: A Personalized Item-Based Collaborative Filtering Retrieval Framework (To appear)
+[PI2I: A Personalized Item-Based Collaborative Filtering Retrieval Framework](https://arxiv.org/abs/2601.16815)
 
 Shaoqing Wang\*, Yingcai Ma\*, **Kairui Fu\***, Ziyang Wang, Dunxian Huang, YuliangYan, Jian Wu
 
@@ -79,6 +79,22 @@ Tianyu Zhan\*, **Kairui Fu\***, Zheqi Lv, Shengyu Zhang
 - An effective strategy to selectively prunes less informative tokens in the input sequence for semantic identifiers based recommendation.
 </div>
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TheWebConf 2026</div><img src='../images/RASTP.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MALLOC: Benchmarking the Memory-aware Long Sequence Compression for Large Sequential Recommendation](https://arxiv.org/abs/2601.20234)
+
+Qihang Yu\*, **Kairui Fu\***, Zhaocheng Du\*, Yuxuan Si, Kaiyuan Li, Weihao Zhao, Zhicheng Zhang, Jieming Zhu, Quanyu Dai, Zhenhua Dong, Shengyu Zhang, Kun Kuang, Fei Wu
+
+[Project](https://github.com/Yuzt-zju/RASTP)
+
+- A benchmark that establishes a rigorous multi-dimensional evaluation protocol that couples standard ranking metrics with system-level constraints for long-sequence compression in large recommender systems. 
+</div>
+</div>
+
+
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='../images/FORGE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
