@@ -24,9 +24,10 @@ My research primarily focuses on the generalizability and personalization of rec
 I am currently seeking job opportunities and will graduate in March 2026. If you have any suitable positions, please feel free to reach out.
 
 # 🔥 News
+- *2026.02*: &nbsp;📰📰 One first-author paper has been deployed in Taobao and is available on Arxiv about rank-enhanced generative retrieval with list-wise DPO.
 - *2026.01*: &nbsp;🎉🎉 Three co-first-author papers have been accepted to the research/industry/short paper track of TheWebConf 2026.
-- *2026.01*: &nbsp;📰📰 One paper has been available on Arxiv about large sequential recommendation.
-- *2025.09*: &nbsp;📰📰 One paper has been deployed in Taobao and is available on Arxiv about generative retrieval with semantic identifiers.
+- *2026.01*: &nbsp;📰📰 One co-first-author paper has been available on Arxiv about large sequential recommendation.
+- *2025.09*: &nbsp;📰📰 One first-author paper has been deployed in Taobao and is available on Arxiv about generative retrieval with semantic identifiers.
 - *2025.07*: &nbsp;🎉🎉 One co-first-author paper has been accepted to MM 2025.
 - *2025.07*: &nbsp;🎉🎉 One paper has been accepted to MM 2025.
 - *2025.07*: &nbsp;📊📊 Forward-OFA has been deployed in the Ascend Community of Huawei using [NPU](https://gitee.com/ouo-ovo/forward-ofa/).
@@ -42,12 +43,26 @@ I am currently seeking job opportunities and will graduate in March 2026. If you
 
 *\* denote the authors contributed equally.*
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='../images/RankGR.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[RankGR: Rank-Enhanced Generative Retrieval with Listwise Direct Preference Optimization in Recommendation](https://arxiv.org/abs/2602.08575v1)
+
+**Kairui Fu\***, Changfa Wu\*, Kun Yuan, Binbin Cao, Dunxian Huang, Yuliang Yan, Junjun Zheng, Jianning Zhang, Silu Zhou, Jian Wu, Kun Kuang
+
+- A rank-enhanced generative retrieval framework for recommendation. Equipped with the listwise direct preference optimization in IAP and the extra scoring module in RSP, RankGR  breaks the limitations of existing methods, particularly their inability to capture hierarchy preference and rich interactions between SIDs and user sequences
+- Deployed on Taobao’s "Guess You Like" section, RankGR achieved a 1.08% increase in online item page views and captured 49.88% of total exposures.
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TheWebConf 2026</div><img src='../images/PI2I.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [PI2I: A Personalized Item-Based Collaborative Filtering Retrieval Framework](https://arxiv.org/abs/2601.16815)
 
 Shaoqing Wang\*, Yingcai Ma\*, **Kairui Fu\***, Ziyang Wang, Dunxian Huang, YuliangYan, Jian Wu
+
+[Huggingface](https://huggingface.co/datasets/PI2I/PI2I)
 
 - A novel two-stage retrieval framework that enhances the personalization capabilities of traditional collaborative filtering.
 - Deployed on Taobao’s "Guess You Like" section, PI2I achieved a 1.05% increase in online transaction rates.
@@ -89,7 +104,7 @@ Qihang Yu\*, **Kairui Fu\***, Zhaocheng Du\*, Yuxuan Si, Kaiyuan Li, Weihao Zhao
 
 [Project](https://anonymous.4open.science/r/MALLOC)
 
-- A benchmark that establishes a rigorous multi-dimensional evaluation protocol that couples standard ranking metrics with system-level constraints for long-sequence compression in large recommender systems. 
+- A benchmark that establishes a rigorous multi-dimensional evaluation protocol that couples standard ranking metrics with system-level constraints for long-sequence compression in large recommender systems.
 </div>
 </div>
 
