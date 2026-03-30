@@ -17,26 +17,25 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a third-year MS student at the College of Computer Science and Technology, Zhejiang University, under the supervision of Prof. [Kun Kuang](https://scholar.google.com/citations?hl=zh-CN&user=FOsNiMQAAAAJ&view_op=list_works&sortby=pubdate) and [Shengyu Zhang](https://scholar.google.com/citations?user=l4Dyt7EAAAAJ&hl=en).
 
-My research primarily focuses on the generalizability and personalization of recommender systems. Recently, I am interested in both recommendations with large language models and the efficient inference of large recommenders when facing much longer user interaction sequences. Meanwhile, I also tackle the distinctive challenges involved in integrating heterogeneous models across diverse computational environments like mobile devices and cloud servers in a seamless and effective manner.
+Previously, I received both my M.S. and B.S. degrees from the College of Computer Science and Technology at Zhejiang University, under the supervision of Prof. [Kun Kuang](https://scholar.google.com/citations?hl=zh-CN&user=FOsNiMQAAAAJ&view_op=list_works&sortby=pubdate) and [Shengyu Zhang](https://scholar.google.com/citations?user=l4Dyt7EAAAAJ&hl=en). Additionally, I was fortunate to conduct research on generative retrieval of recommendation at the Taobao & Tmall Group, Alibaba.
 
-I am currently seeking job opportunities and will graduate in March 2026. If you have any suitable positions, please feel free to reach out.
+My research focuses on the generalizability and personalization of recommender systems. Recently, I am interested in both recommendations with large language models and the efficient inference of large recommenders when facing much longer user interaction sequences. Meanwhile, I also tackle the distinctive challenges involved in integrating heterogeneous models across diverse computational environments like mobile devices and cloud servers in a seamless and effective manner.
+
 
 # 🔥 News
-- *2026.02*: &nbsp;📰📰 One first-author paper has been deployed in Taobao and is available on Arxiv about rank-enhanced generative retrieval with list-wise DPO.
-- *2026.01*: &nbsp;🎉🎉 Three co-first-author papers have been accepted to the research/industry/short paper track of TheWebConf 2026.
-- *2026.01*: &nbsp;📰📰 One co-first-author paper has been available on Arxiv about large sequential recommendation.
-- *2025.09*: &nbsp;📰📰 One first-author paper has been deployed in Taobao and is available on Arxiv about generative retrieval with semantic identifiers.
-- *2025.07*: &nbsp;🎉🎉 One co-first-author paper has been accepted to MM 2025.
-- *2025.07*: &nbsp;🎉🎉 One paper has been accepted to MM 2025.
+- *2026.02*: &nbsp;📰📰 One paper has been deployed in Taobao and is available on Arxiv about rank-enhanced generative retrieval with list-wise DPO.
+- *2026.01*: &nbsp;🎉🎉 Three papers have been accepted to the research/industry/short paper track of TheWebConf 2026.
+- *2026.01*: &nbsp;📰📰 One paper has been available on Arxiv about the efficient inference of large sequential recommendation.
+- *2025.09*: &nbsp;📰📰 One paper has been deployed in Taobao and is available on Arxiv about generative retrieval with semantic identifiers.
+- *2025.07*: &nbsp;🎉🎉 Two papers have been accepted to MM 2025.
 - *2025.07*: &nbsp;📊📊 Forward-OFA has been deployed in the Ascend Community of Huawei using [NPU](https://gitee.com/ouo-ovo/forward-ofa/).
-- *2024.12*: &nbsp;🎉🎉 One co-first-author paper has been accepted to AAAI 2025.
-- *2024.11*: &nbsp;🎉🎉 One first-author paper has been accepted to KDD 2025 August Cycle (Research Track).
+- *2024.12*: &nbsp;🎉🎉 One paper has been accepted to AAAI 2025.
+- *2024.11*: &nbsp;🎉🎉 One paper has been accepted to KDD 2025 August Cycle (Research Track).
 - *2024.08*: &nbsp;🥳🥳 I went to Barcelona, Spain, to attend the KDD conference to deliver an oral presentation of our paper DIET.
-- *2024.05*: &nbsp;🎉🎉 One first-author paper has been accepted to KDD 2024 (Research Track).
+- *2024.05*: &nbsp;🎉🎉 One paper has been accepted to KDD 2024 (Research Track).
 - *2023.07*: &nbsp;🥳🥳 I went to Fuzhou, China, to attend the CICAI conference to deliver an oral presentation and won the Best Paper Award.
-- *2023.06*: &nbsp;🎉🎉 One first-author paper has been accepted to CICAI 2023.
+- *2023.06*: &nbsp;🎉🎉 One paper has been accepted to CICAI 2023.
 
 # 📝 Publications
 
@@ -199,6 +198,7 @@ Kunxi Li\*, Tianyu Zhan\*, **Kairui Fu\***, Shengyu Zhang, Kun Kuang, Jiwei Li, 
 </div>
 
 # 🎖 Honors and Awards
+- *2026.03* Outstanding Graduate of Zhejiang Province
 - *2025.10* National Scholarship (Top 1%)
 - *2024.12* Huawei Jingying Scholarship (Top 1%)
 - *2023.7* Best Paper Award in CICAI 2023 (Top 1)
@@ -209,10 +209,10 @@ Kunxi Li\*, Tianyu Zhan\*, **Kairui Fu\***, Shengyu Zhang, Kun Kuang, Jiwei Li, 
 
 
 # 📖 Educations
-- *2023.09 - present*, Master, Computer Science and Technology, Zhejiang University, Hangzhou.
+- *2023.09 - 2026.03*, Master, Computer Science and Technology, Zhejiang University, Hangzhou.
 - *2019.09 - 2023.06*, Undergraduate, Turing Class(Chu Kochen Honors College), Computer Science and Technology, Zhejiang University, Hangzhou
 
 
 # 💻 Internships
 - *2025.02 - 2025.05*, [Huawei Noah’s Ark Lab](http://dev3.noahlab.com.hk/index.html), China.
-- *2025.05 - Present*, [Taobao & Tmall Group of Alibaba](https://ali-home.alibaba.com/en-us/), China.
+- *2025.05 - 2026.03*, [Taobao & Tmall Group of Alibaba](https://ali-home.alibaba.com/en-us/), China.
