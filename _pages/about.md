@@ -24,6 +24,7 @@ My research focuses on the generalizability and personalization of recommender s
 
 
 # 🔥 News
+- *2026.05*: &nbsp;🎉🎉 One paper has been accepted to KDD 2026.
 - *2026.02*: &nbsp;📰📰 One paper has been deployed in Taobao and is available on Arxiv about rank-enhanced generative retrieval with list-wise DPO.
 - *2026.01*: &nbsp;🎉🎉 Three papers have been accepted to the research/industry/short paper track of TheWebConf 2026.
 - *2026.01*: &nbsp;📰📰 One paper has been available on Arxiv about the efficient inference of large sequential recommendation.
@@ -31,9 +32,9 @@ My research focuses on the generalizability and personalization of recommender s
 - *2025.07*: &nbsp;🎉🎉 Two papers have been accepted to MM 2025.
 - *2025.07*: &nbsp;📊📊 Forward-OFA has been deployed in the Ascend Community of Huawei using [NPU](https://gitee.com/ouo-ovo/forward-ofa/).
 - *2024.12*: &nbsp;🎉🎉 One paper has been accepted to AAAI 2025.
-- *2024.11*: &nbsp;🎉🎉 One paper has been accepted to KDD 2025 August Cycle (Research Track).
+- *2024.11*: &nbsp;🎉🎉 One paper has been accepted to KDD 2025.
 - *2024.08*: &nbsp;🥳🥳 I went to Barcelona, Spain, to attend the KDD conference to deliver an oral presentation of our paper DIET.
-- *2024.05*: &nbsp;🎉🎉 One paper has been accepted to KDD 2024 (Research Track).
+- *2024.05*: &nbsp;🎉🎉 One paper has been accepted to KDD 2024.
 - *2023.07*: &nbsp;🥳🥳 I went to Fuzhou, China, to attend the CICAI conference to deliver an oral presentation and won the Best Paper Award.
 - *2023.06*: &nbsp;🎉🎉 One paper has been accepted to CICAI 2023.
 
@@ -41,6 +42,20 @@ My research focuses on the generalizability and personalization of recommender s
 
 
 *\* denote the authors contributed equally.*
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2026</div><img src='../images/FORGE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[FORGE: Forming Semantic Identifiers for Generative Retrieval in Industrial Datasets](https://arxiv.org/abs/2509.20904)
+
+**Kairui Fu**, Tao Zhang, Shuwen Xiao, Ziyang Wang, Xinming Zhang, Chenchi Zhang, Yuliang Yan, Junjun Zheng, Yu Li, Zhihong Chen, Jian Wu, Xiangheng Kong, Shengyu Zhang, Kun Kuang, Yuning Jiang, Bo Zheng
+
+[Huggingface](https://huggingface.co/AL-GR)<span style="white-space: pre;">	</span>[Github](https://github.com/selous123/al_sid)<span style="white-space: pre;">	</span>[知乎](https://zhuanlan.zhihu.com/p/1956015687244952683)<span style="white-space: pre;">     </span>[Wechat](https://mp.weixin.qq.com/s/c9oShjkLwmIzutzpcVxu6w)
+
+- The first industrial dataset about generative retrieval with semantic identifiers, which contains 14 billion user interactions and multimodal features of 250 million items sampled from Taobao.
+- Subsequent proposed optimizations of data modality and ID collisions are validated with both offline (15\% improvements on HitRate) and online (0.35% improvements on transaction count) experiments in the "Guess You Like" Section of Taobao.
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='../images/RankGR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -104,23 +119,6 @@ Qihang Yu\*, **Kairui Fu\***, Zhaocheng Du\*, Yuxuan Si, Kaiyuan Li, Weihao Zhao
 [Project](https://anonymous.4open.science/r/MALLOC)
 
 - A benchmark that establishes a rigorous multi-dimensional evaluation protocol that couples standard ranking metrics with system-level constraints for long-sequence compression in large recommender systems.
-</div>
-</div>
-
-
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='../images/FORGE.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[FORGE: Forming Semantic Identifiers for Generative Retrieval in Industrial Datasets](https://arxiv.org/abs/2509.20904)
-
-**Kairui Fu**, Tao Zhang, Shuwen Xiao, Ziyang Wang, Xinming Zhang, Chenchi Zhang, Yuliang Yan, Junjun Zheng, Yu Li, Zhihong Chen, Jian Wu, Xiangheng Kong, Shengyu Zhang, Kun Kuang, Yuning Jiang, Bo Zheng
-
-[Huggingface](https://huggingface.co/AL-GR)<span style="white-space: pre;">	</span>[Github](https://github.com/selous123/al_sid)<span style="white-space: pre;">	</span>[知乎](https://zhuanlan.zhihu.com/p/1956015687244952683)<span style="white-space: pre;">     </span>[Wechat](https://mp.weixin.qq.com/s/c9oShjkLwmIzutzpcVxu6w)
-
-- The first industrial dataset about generative retrieval with semantic identifiers, which contains 14 billion user interactions and multimodal features of 250 million items sampled from Taobao.
-- Subsequent proposed optimizations of data modality and ID collisions are validated with both offline (15\% improvements on HitRate) and online (0.35% improvements on transaction count) experiments in the "Guess You Like" Section of Taobao.
 </div>
 </div>
 
