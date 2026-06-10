@@ -18,53 +18,53 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 
-Previously, I received both my M.S. and B.S. degrees from the College of Computer Science and Technology at Zhejiang University, under the supervision of Prof. [Kun Kuang](https://scholar.google.com/citations?hl=zh-CN&user=FOsNiMQAAAAJ&view_op=list_works&sortby=pubdate) and [Shengyu Zhang](https://scholar.google.com/citations?user=l4Dyt7EAAAAJ&hl=en). Additionally, I was fortunate to conduct research on generative retrieval of recommendation at the Taobao & Tmall Group, Alibaba.
+I received both my M.S. and B.S. degrees from the College of Computer Science and Technology at Zhejiang University, under the supervision of Prof. [Kun Kuang](https://scholar.google.com/citations?hl=zh-CN&user=FOsNiMQAAAAJ&view_op=list_works&sortby=pubdate) and [Shengyu Zhang](https://scholar.google.com/citations?user=l4Dyt7EAAAAJ&hl=en). Additionally, I was fortunate to conduct research on generative retrieval for recommendation at the Taobao & Tmall Group, Alibaba.
 
-My research focuses on the generalizability and personalization of recommender systems. Recently, I am interested in both recommendations with large language models and the efficient inference of large recommenders when facing much longer user interaction sequences. Meanwhile, I also tackle the distinctive challenges involved in integrating heterogeneous models across diverse computational environments like mobile devices and cloud servers in a seamless and effective manner.
+My research focuses on the generalizability and personalization of recommender systems. I am currently interested in LLM-based recommendation and efficient inference for large recommender systems over long user interaction sequences. Meanwhile, I also tackle the distinctive challenges involved in integrating heterogeneous models across diverse computational environments like mobile devices and cloud servers in a seamless and effective manner.
 
 
 # 🔥 News
 - *2026.05*: &nbsp;🎉🎉 One paper has been accepted to KDD 2026.
-- *2026.02*: &nbsp;📰📰 One paper has been deployed in Taobao and is available on Arxiv about rank-enhanced generative retrieval with list-wise DPO.
-- *2026.01*: &nbsp;🎉🎉 Three papers have been accepted to the research/industry/short paper track of TheWebConf 2026.
-- *2026.01*: &nbsp;📰📰 One paper has been available on Arxiv about the efficient inference of large sequential recommendation.
-- *2025.09*: &nbsp;📰📰 One paper has been deployed in Taobao and is available on Arxiv about generative retrieval with semantic identifiers.
+- *2026.02*: &nbsp;📰📰 One paper has been deployed on Taobao and is available on arXiv about rank-enhanced generative retrieval with listwise DPO.
+- *2026.01*: &nbsp;🎉🎉 Three papers have been accepted to the research, industry, and short-paper tracks of TheWebConf 2026.
+- *2026.01*: &nbsp;📰📰 One paper is available on arXiv about efficient inference for large sequential recommendation.
+- *2025.09*: &nbsp;📰📰 One paper has been deployed on Taobao and is available on arXiv about generative retrieval with semantic identifiers.
 - *2025.07*: &nbsp;🎉🎉 Two papers have been accepted to MM 2025.
-- *2025.07*: &nbsp;📊📊 Forward-OFA has been deployed in the Ascend Community of Huawei using [NPU](https://gitee.com/ouo-ovo/forward-ofa/).
 - *2024.12*: &nbsp;🎉🎉 One paper has been accepted to AAAI 2025.
 - *2024.11*: &nbsp;🎉🎉 One paper has been accepted to KDD 2025.
-- *2024.08*: &nbsp;🥳🥳 I went to Barcelona, Spain, to attend the KDD conference to deliver an oral presentation of our paper DIET.
+- *2024.08*: &nbsp;🥳🥳 I attended KDD in Barcelona, Spain, and delivered an oral presentation of our paper DIET.
 - *2024.05*: &nbsp;🎉🎉 One paper has been accepted to KDD 2024.
-- *2023.07*: &nbsp;🥳🥳 I went to Fuzhou, China, to attend the CICAI conference to deliver an oral presentation and won the Best Paper Award.
+- *2023.07*: &nbsp;🥳🥳 I attended CICAI in Fuzhou, China, delivered an oral presentation, and won the Best Paper Award.
 - *2023.06*: &nbsp;🎉🎉 One paper has been accepted to CICAI 2023.
 
 # 📝 Publications
 
 
-*\* denote the authors contributed equally.*
+*\* denotes equal contribution.*
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2026</div><img src='../images/FORGE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [FORGE: Forming Semantic Identifiers for Generative Retrieval in Industrial Datasets](https://arxiv.org/abs/2509.20904)
 
-**Kairui Fu**, Tao Zhang, Shuwen Xiao, Ziyang Wang, Xinming Zhang, Chenchi Zhang, Yuliang Yan, Junjun Zheng, Yu Li, Zhihong Chen, Jian Wu, Xiangheng Kong, Shengyu Zhang, Kun Kuang, Yuning Jiang, Bo Zheng
+**Kairui Fu\***, Tao Zhang\*, Shuwen Xiao\*, Ziyang Wang, Xinming Zhang, Chenchi Zhang, Yuliang Yan, Junjun Zheng, Xiangheng Kong, Shengyu Zhang, Kun Kuang, Yuning Jiang
 
-[Huggingface](https://huggingface.co/AL-GR)<span style="white-space: pre;">	</span>[Github](https://github.com/selous123/al_sid)<span style="white-space: pre;">	</span>[知乎](https://zhuanlan.zhihu.com/p/1956015687244952683)<span style="white-space: pre;">     </span>[Wechat](https://mp.weixin.qq.com/s/c9oShjkLwmIzutzpcVxu6w)
+[Hugging Face](https://huggingface.co/AL-GR)<span style="white-space: pre;">	</span>[GitHub](https://github.com/selous123/al_sid)<span style="white-space: pre;">	</span>[知乎](https://zhuanlan.zhihu.com/p/1956015687244952683)<span style="white-space: pre;">     </span>[WeChat](https://mp.weixin.qq.com/s/c9oShjkLwmIzutzpcVxu6w)
 
-- The first industrial dataset about generative retrieval with semantic identifiers, which contains 14 billion user interactions and multimodal features of 250 million items sampled from Taobao.
-- Subsequent proposed optimizations of data modality and ID collisions are validated with both offline (15\% improvements on HitRate) and online (0.35% improvements on transaction count) experiments in the "Guess You Like" Section of Taobao.
+- Investigate what constitutes better semantic identifiers through a taxonomy of SID construction strategies and extensive downstream GR validation.
+- Release AL-GR, an industrial-scale Taobao dataset with 14 billion interactions and multimodal features of 250 million items.
+- Deployed on Taobao’s "Guess You Like" section, FORGE achieved a 0.35% increase in online transaction count.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='../images/RankGR.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='../images/RankGR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [RankGR: Rank-Enhanced Generative Retrieval with Listwise Direct Preference Optimization in Recommendation](https://arxiv.org/abs/2602.08575v1)
 
 **Kairui Fu\***, Changfa Wu\*, Kun Yuan, Binbin Cao, Dunxian Huang, Yuliang Yan, Junjun Zheng, Jianning Zhang, Silu Zhou, Jian Wu, Kun Kuang
 
-- A rank-enhanced generative retrieval framework for recommendation. Equipped with the listwise direct preference optimization in IAP and the extra scoring module in RSP, RankGR  breaks the limitations of existing methods, particularly their inability to capture hierarchy preference and rich interactions between SIDs and user sequences
+- Enhance generative retrieval with listwise DPO and lightweight rescoring to capture hierarchical preferences and richer user-item interactions.
 - Deployed on Taobao’s "Guess You Like" section, RankGR achieved a 1.08% increase in online item page views and captured 49.88% of total exposures.
 </div>
 </div>
@@ -74,9 +74,9 @@ My research focuses on the generalizability and personalization of recommender s
 
 [PI2I: A Personalized Item-Based Collaborative Filtering Retrieval Framework](https://arxiv.org/abs/2601.16815)
 
-Shaoqing Wang\*, Yingcai Ma\*, **Kairui Fu\***, Ziyang Wang, Dunxian Huang, YuliangYan, Jian Wu
+Shaoqing Wang\*, Yingcai Ma\*, **Kairui Fu\***, Ziyang Wang, Dunxian Huang, Yuliang Yan, Jian Wu
 
-[Huggingface](https://huggingface.co/datasets/PI2I/PI2I)
+[Hugging Face](https://huggingface.co/datasets/PI2I/PI2I)
 
 - A novel two-stage retrieval framework that enhances the personalization capabilities of traditional collaborative filtering.
 - Deployed on Taobao’s "Guess You Like" section, PI2I achieved a 1.05% increase in online transaction rates.
@@ -92,7 +92,7 @@ Qihang Yu\*, **Kairui Fu\***, Shengyu Zhang, Zheqi Lv, Fan Wu, Fei Wu
 
 [Project](https://github.com/Yu-Qi-hang/ThinkRec)
 
-- Almost the first emphasizes the importance of activating the thinking of LLMs to make recommendations more interpretable and effective.
+- An early attempt to activate the reasoning ability of LLMs for more interpretable and effective recommendation.
 </div>
 </div>
 
@@ -105,11 +105,11 @@ Tianyu Zhan\*, **Kairui Fu\***, Zheqi Lv, Shengyu Zhang
 
 [Project](https://github.com/Yuzt-zju/RASTP)
 
-- An effective strategy to selectively prunes less informative tokens in the input sequence for semantic identifiers based recommendation.
+- An effective strategy to selectively prune less informative tokens for semantic-identifier-based recommendation.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='../images/MALLOC.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='../images/MALLOC.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MALLOC: Benchmarking the Memory-aware Long Sequence Compression for Large Sequential Recommendation](https://arxiv.org/abs/2601.20234)
@@ -132,7 +132,7 @@ Qihang Yu\*, **Kairui Fu\***, Zhaocheng Du\*, Yuxuan Si, Kaiyuan Li, Weihao Zhao
 
 Tianqi Liu\*, **Kairui Fu\***, Shengyu Zhang, Wenyan Fan, Zhaocheng Du, Jieming Zhu, Fan Wu, Fei Wu
 
-- A framework for device-cloud collaborative personalized mixed-precision quantization that generates lightweight networks for heterogeneous mobile devices.
+- A device-cloud collaborative framework for personalized mixed-precision quantization that generates lightweight networks for heterogeneous mobile devices.
 </div>
 </div>
 
@@ -143,7 +143,7 @@ Tianqi Liu\*, **Kairui Fu\***, Shengyu Zhang, Wenyan Fan, Zhaocheng Du, Jieming 
 
 Zheqi Lv, Wenqiao Zhang, **Kairui Fu**, Qi Tian, Shengyu Zhang, Jiajie Su, Jingyuan Chen, Kun Kuang, Fei Wu
 
-- The composition of coarse and fine-grained intersts for tackling the on-device continuous data distribution shift in both vision and recommendation tasks.
+- Prototype-based parameter editing for tackling real-time distribution shifts on devices in both vision and recommendation tasks.
 </div>
 </div>
 
@@ -156,7 +156,7 @@ Zheqi Lv, Wenqiao Zhang, **Kairui Fu**, Qi Tian, Shengyu Zhang, Jiajie Su, Jingy
 
 [Project](https://gitee.com/ouo-ovo/forward-ofa/)
 
-- An early attempt to investigate the joint customization of both structure and parameters, analyzing the challenges of interest heterogeneity, network transmission, and on-device inference simultaneously.
+- An early attempt at jointly customizing model structures and parameters for efficient cloud-coordinated on-device recommendation.
 </div>
 </div>
 
@@ -167,9 +167,9 @@ Zheqi Lv, Wenqiao Zhang, **Kairui Fu**, Qi Tian, Shengyu Zhang, Jiajie Su, Jingy
 
 Kunxi Li\*, Tianyu Zhan\*, **Kairui Fu\***, Shengyu Zhang, Kun Kuang, Jiwei Li, Zhou Zhao, Fan Wu, Fei Wu
 
-[Project](https://github.com/Fantasylii/mergenet)<span style="white-space: pre;">     </span>[知乎](https://zhuanlan.zhihu.com/p/20574047950)
+[Project](https://github.com/Fantasylii/mergenet)<span style="white-space: pre;">     </span>[知乎](https://zhuanlan.zhihu.com/p/20574047950)<span style="white-space: pre;">     </span>[WeChat](https://mp.weixin.qq.com/s/I8IP2scMsRatnGChpR8sWQ)
 
-- Leverage parameters as the medium to achieve knowledge transfer between heterogeneous models, tasks, and modalities.
+- Leverage parameters as the medium to achieve knowledge transfer across heterogeneous models, tasks, and modalities.
 </div>
 </div>
 
@@ -180,7 +180,7 @@ Kunxi Li\*, Tianyu Zhan\*, **Kairui Fu\***, Shengyu Zhang, Kun Kuang, Jiwei Li, 
 
 **Kairui Fu**, Shengyu Zhang, Zheqi Lv, Jingyuan Chen, Jiwei Li
 
-- Tackle both the parameter personalization and the communication efficiency under strict device constraints in device-cloud collaborative recommendation.
+- Tackle parameter personalization and communication efficiency under strict device constraints in device-cloud collaborative recommendation.
 </div>
 </div>
 
@@ -191,7 +191,7 @@ Kunxi Li\*, Tianyu Zhan\*, **Kairui Fu\***, Shengyu Zhang, Kun Kuang, Jiwei Li, 
 
 **Kairui Fu**, Qiaowei Miao, Shengyu Zhang, Kun Kuang, Fei Wu
 
-- Investigate the inconsistent distribution of users in recommender system and the difficulty in causal structure learning accompanied by the intervention of recommender system.
+- Investigate user distribution shifts in recommender systems and the difficulty of causal structure learning under recommender-system interventions.
 </div>
 </div>
 
@@ -199,16 +199,16 @@ Kunxi Li\*, Tianyu Zhan\*, **Kairui Fu\***, Shengyu Zhang, Kun Kuang, Jiwei Li, 
 - *2026.03* Outstanding Graduate of Zhejiang Province
 - *2025.10* National Scholarship (Top 1%)
 - *2024.12* Huawei Jingying Scholarship (Top 1%)
-- *2023.7* Best Paper Award in CICAI 2023 (Top 1)
-- *2023.6* Outstanding Graduates of Zhejiang University
+- *2023.07* Best Paper Award at CICAI 2023 (Top 1)
+- *2023.06* Outstanding Graduate of Zhejiang University
 - *2022.10* Scholarship of Zhejiang University
 - *2021.10* Scholarship of Zhejiang University
 - *2020.10* Scholarship of Zhejiang University
 
 
-# 📖 Educations
-- *2023.09 - 2026.03*, Master, Computer Science and Technology, Zhejiang University, Hangzhou.
-- *2019.09 - 2023.06*, Undergraduate, Turing Class(Chu Kochen Honors College), Computer Science and Technology, Zhejiang University, Hangzhou
+# 📖 Education
+- *2023.09 - 2026.03*, M.S. in Computer Science and Technology, Zhejiang University, Hangzhou.
+- *2019.09 - 2023.06*, B.S. in Computer Science and Technology, Turing Class (Chu Kochen Honors College), Zhejiang University, Hangzhou
 
 
 # 💻 Internships
