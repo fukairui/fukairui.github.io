@@ -17,39 +17,39 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+# 👋 About Me
 
-I received both my M.S. and B.S. degrees from the College of Computer Science and Technology at Zhejiang University, under the supervision of Prof. [Kun Kuang](https://scholar.google.com/citations?hl=zh-CN&user=FOsNiMQAAAAJ&view_op=list_works&sortby=pubdate) and [Shengyu Zhang](https://scholar.google.com/citations?user=l4Dyt7EAAAAJ&hl=en). Additionally, I was fortunate to conduct research on generative retrieval for recommendation at the Taobao & Tmall Group, Alibaba.
+I received both my M.S. and B.S. degrees in Computer Science and Technology from Zhejiang University, where I was advised by Prof. [Kun Kuang](https://kunkuang.github.io/) and Prof. [Shengyu Zhang](https://scholar.google.com/citations?user=l4Dyt7EAAAAJ&hl=en). Additionally, I was fortunate to conduct research on generative retrieval for recommendation at the Taobao & Tmall Group, Alibaba.
 
-My research focuses on the generalizability and personalization of recommender systems. I am currently interested in LLM-based recommendation and efficient inference for large recommender systems over long user interaction sequences. Meanwhile, I also tackle the distinctive challenges involved in integrating heterogeneous models across diverse computational environments like mobile devices and cloud servers in a seamless and effective manner.
+My research focuses on generalizability and personalization in recommender systems. I am particularly interested in LLM-based recommendation and efficient inference for large-scale systems serving long user interaction sequences. I also study how heterogeneous models can be integrated effectively across mobile devices and cloud infrastructure.
 
 
 # 🔥 News
-- *2026.05*: &nbsp;🎉🎉 One paper has been accepted to KDD 2026.
-- *2026.02*: &nbsp;📰📰 One paper has been deployed on Taobao and is available on arXiv about rank-enhanced generative retrieval with listwise DPO.
-- *2026.01*: &nbsp;🎉🎉 Three papers have been accepted to the research, industry, and short-paper tracks of TheWebConf 2026.
-- *2026.01*: &nbsp;📰📰 One paper is available on arXiv about efficient inference for large sequential recommendation.
-- *2025.09*: &nbsp;📰📰 One paper has been deployed on Taobao and is available on arXiv about generative retrieval with semantic identifiers.
+- *2026.05*: &nbsp;🎉🎉 One paper was accepted to KDD 2026.
+- *2026.02*: &nbsp;📰📰 One paper on rank-enhanced generative retrieval with listwise DPO was deployed on Taobao and is available on arXiv.
+- *2026.01*: &nbsp;🎉🎉 Three papers were accepted to the research, industry, and short-paper tracks of TheWebConf 2026.
+- *2026.01*: &nbsp;📰📰 One paper on efficient inference for large sequential recommendation is now available on arXiv.
 - *2025.07*: &nbsp;🎉🎉 Two papers have been accepted to MM 2025.
 - *2024.12*: &nbsp;🎉🎉 One paper has been accepted to AAAI 2025.
 - *2024.11*: &nbsp;🎉🎉 One paper has been accepted to KDD 2025.
-- *2024.08*: &nbsp;🥳🥳 I attended KDD in Barcelona, Spain, and delivered an oral presentation of our paper DIET.
-- *2024.05*: &nbsp;🎉🎉 One paper has been accepted to KDD 2024.
-- *2023.07*: &nbsp;🥳🥳 I attended CICAI in Fuzhou, China, delivered an oral presentation, and won the Best Paper Award.
-- *2023.06*: &nbsp;🎉🎉 One paper has been accepted to CICAI 2023.
+- *2024.08*: &nbsp;🥳🥳 I attended KDD in Barcelona, Spain, where I gave an oral presentation on our paper DIET.
+- *2024.05*: &nbsp;🎉🎉 One paper was accepted to KDD 2024.
+- *2023.07*: &nbsp;🥳🥳 I attended CICAI in Fuzhou, China, gave an oral presentation, and received the Best Paper Award.
+- *2023.06*: &nbsp;🎉🎉 One paper was accepted to CICAI 2023.
 
 # 📝 Publications
 
 
 *\* denotes equal contribution.*
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2026</div><img src='../images/FORGE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2026</div><img src="{{ '/images/FORGE.png' | relative_url }}" alt="FORGE paper illustration" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [FORGE: Forming Semantic Identifiers for Generative Retrieval in Industrial Datasets](https://arxiv.org/abs/2509.20904)
 
 **Kairui Fu\***, Tao Zhang\*, Shuwen Xiao\*, Ziyang Wang, Xinming Zhang, Chenchi Zhang, Yuliang Yan, Junjun Zheng, Xiangheng Kong, Shengyu Zhang, Kun Kuang, Yuning Jiang
 
-[Hugging Face](https://huggingface.co/AL-GR)<span style="white-space: pre;">	</span>[GitHub](https://github.com/selous123/al_sid)<span style="white-space: pre;">	</span>[知乎](https://zhuanlan.zhihu.com/p/1956015687244952683)<span style="white-space: pre;">     </span>[WeChat](https://mp.weixin.qq.com/s/c9oShjkLwmIzutzpcVxu6w)
+[Hugging Face](https://huggingface.co/AL-GR) [GitHub](https://github.com/selous123/al_sid) [知乎](https://zhuanlan.zhihu.com/p/1956015687244952683) [WeChat](https://mp.weixin.qq.com/s/c9oShjkLwmIzutzpcVxu6w)
 
 - Investigate what constitutes better semantic identifiers through a taxonomy of SID construction strategies and extensive downstream GR validation.
 - Release AL-GR, an industrial-scale Taobao dataset with 14 billion interactions and multimodal features of 250 million items.
@@ -57,7 +57,7 @@ My research focuses on the generalizability and personalization of recommender s
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='../images/RankGR.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src="{{ '/images/RankGR.png' | relative_url }}" alt="RankGR paper illustration" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [RankGR: Rank-Enhanced Generative Retrieval with Listwise Direct Preference Optimization in Recommendation](https://arxiv.org/abs/2602.08575v1)
@@ -69,7 +69,7 @@ My research focuses on the generalizability and personalization of recommender s
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TheWebConf 2026</div><img src='../images/PI2I.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TheWebConf 2026</div><img src="{{ '/images/PI2I.png' | relative_url }}" alt="PI2I paper illustration" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [PI2I: A Personalized Item-Based Collaborative Filtering Retrieval Framework](https://arxiv.org/abs/2601.16815)
@@ -83,7 +83,7 @@ Shaoqing Wang\*, Yingcai Ma\*, **Kairui Fu\***, Ziyang Wang, Dunxian Huang, Yuli
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TheWebConf 2026</div><img src='../images/thinkrec.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TheWebConf 2026</div><img src="{{ '/images/thinkrec.png' | relative_url }}" alt="ThinkRec paper illustration" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [ThinkRec: Thinking-based recommendation via LLM](https://arxiv.org/abs/2505.15091)
@@ -96,7 +96,7 @@ Qihang Yu\*, **Kairui Fu\***, Shengyu Zhang, Zheqi Lv, Fan Wu, Fei Wu
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TheWebConf 2026</div><img src='../images/RASTP.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TheWebConf 2026</div><img src="{{ '/images/RASTP.png' | relative_url }}" alt="RASTP paper illustration" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [RASTP: Representation-Aware Semantic Token Pruning for Generative Recommendation with Semantic Identifiers](https://arxiv.org/abs/2511.16943)
@@ -109,7 +109,7 @@ Tianyu Zhan\*, **Kairui Fu\***, Zheqi Lv, Shengyu Zhang
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src='../images/MALLOC.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv</div><img src="{{ '/images/MALLOC.png' | relative_url }}" alt="MALLOC paper illustration" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MALLOC: Benchmarking the Memory-aware Long Sequence Compression for Large Sequential Recommendation](https://arxiv.org/abs/2601.20234)
@@ -125,7 +125,7 @@ Qihang Yu\*, **Kairui Fu\***, Zhaocheng Du\*, Yuxuan Si, Kaiyuan Li, Weihao Zhao
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM 2025</div><img src='../images/CHORD.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM 2025</div><img src="{{ '/images/CHORD.png' | relative_url }}" alt="CHORD paper illustration" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [CHORD: Customizing Hybrid-precision On-device Model for Sequential Recommendation with Device-cloud Collaboration](https://dl.acm.org/doi/10.1145/3746027.3755632)
@@ -136,7 +136,7 @@ Tianqi Liu\*, **Kairui Fu\***, Shengyu Zhang, Wenyan Fan, Zhaocheng Du, Jieming 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM 2025</div><img src='../images/Persona.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MM 2025</div><img src="{{ '/images/Persona.png' | relative_url }}" alt="Prototype-based parameter editing paper illustration" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Tackling Device Data Distribution Real-time Shift via Prototype-based Parameter Editing](https://dl.acm.org/doi/10.1145/3746027.3754895)
@@ -147,7 +147,7 @@ Zheqi Lv, Wenqiao Zhang, **Kairui Fu**, Qi Tian, Shengyu Zhang, Jiajie Su, Jingy
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025</div><img src='../images/Forward-OFA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025</div><img src="{{ '/images/Forward-OFA.png' | relative_url }}" alt="Forward Once for All paper illustration" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Forward Once for All: Structural Parameterized Adaptation for Efficient Cloud-coordinated On-device Recommendation](https://dl.acm.org/doi/10.1145/3690624.3709178)
@@ -160,20 +160,20 @@ Zheqi Lv, Wenqiao Zhang, **Kairui Fu**, Qi Tian, Shengyu Zhang, Jiajie Su, Jingy
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='../images/MergeNet.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src="{{ '/images/MergeNet.png' | relative_url }}" alt="MergeNet paper illustration" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MergeNet: Knowledge Migration across Heterogeneous Models, Tasks, and Modalities](https://ojs.aaai.org/index.php/AAAI/article/view/32510)
 
 Kunxi Li\*, Tianyu Zhan\*, **Kairui Fu\***, Shengyu Zhang, Kun Kuang, Jiwei Li, Zhou Zhao, Fan Wu, Fei Wu
 
-[Project](https://github.com/Fantasylii/mergenet)<span style="white-space: pre;">     </span>[知乎](https://zhuanlan.zhihu.com/p/20574047950)<span style="white-space: pre;">     </span>[WeChat](https://mp.weixin.qq.com/s/I8IP2scMsRatnGChpR8sWQ)
+[Project](https://github.com/Fantasylii/mergenet) [知乎](https://zhuanlan.zhihu.com/p/20574047950) [WeChat](https://mp.weixin.qq.com/s/I8IP2scMsRatnGChpR8sWQ)
 
 - Leverage parameters as the medium to achieve knowledge transfer across heterogeneous models, tasks, and modalities.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2024</div><img src='../images/DIET.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2024</div><img src="{{ '/images/DIET.png' | relative_url }}" alt="DIET paper illustration" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [DIET: Customized Slimming for Incompatible Networks in Sequential Recommendation](https://dl.acm.org/doi/abs/10.1145/3637528.3671669)
@@ -184,7 +184,7 @@ Kunxi Li\*, Tianyu Zhan\*, **Kairui Fu\***, Shengyu Zhang, Kun Kuang, Jiwei Li, 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CICAI 2023 <b>Best Paper</b></div><img src='../images/CICAI.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CICAI 2023 <b>Best Paper</b></div><img src="{{ '/images/CICAI.png' | relative_url }}" alt="CICAI paper illustration" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [End-to-End Optimization of Quantization-Based Structure Learning and Interventional Next-Item Recommendation](https://link.springer.com/chapter/10.1007/978-981-99-8850-1_34)
@@ -201,9 +201,7 @@ Kunxi Li\*, Tianyu Zhan\*, **Kairui Fu\***, Shengyu Zhang, Kun Kuang, Jiwei Li, 
 - *2024.12* Huawei Jingying Scholarship (Top 1%)
 - *2023.07* Best Paper Award at CICAI 2023 (Top 1)
 - *2023.06* Outstanding Graduate of Zhejiang University
-- *2022.10* Scholarship of Zhejiang University
-- *2021.10* Scholarship of Zhejiang University
-- *2020.10* Scholarship of Zhejiang University
+- *2020–2022* Scholarship of Zhejiang University (three consecutive years)
 
 
 # 📖 Education

@@ -87,6 +87,12 @@
 
 }
 
+/* Consistent spacing for publication resource links. */
+.paper-box .paper-box-text > p:not(:first-child) > a {
+    display: inline-block;
+    margin: 0 1.1rem 0.35rem 0;
+}
+
 $scroll_offset : 2em;
 h1:before, .anchor:before { 
     content: ''; 
@@ -106,4 +112,45 @@ h1:before, .anchor:before {
     color: white;
     background-color: #00369f;
     font-size: .8em;
+}
+
+/* Keep publication artwork and copy in separate, responsive columns. */
+.paper-box {
+    align-items: flex-start;
+
+    .paper-box-image > div {
+        position: relative;
+        width: 100%;
+    }
+
+    .paper-box-image img {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    @include breakpoint($medium) {
+        align-items: center;
+        gap: 1.5rem;
+
+        .paper-box-image {
+            flex: 0 1 44%;
+            width: auto;
+            min-width: 0;
+            max-width: 44%;
+        }
+
+        .paper-box-image--cicai {
+            flex-basis: 26%;
+            max-width: 26%;
+        }
+
+        .paper-box-text {
+            flex: 1 1 0;
+            min-width: 0;
+            max-width: none;
+            padding-left: 0;
+        }
+    }
 }

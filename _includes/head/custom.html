@@ -20,4 +20,278 @@
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
+<!-- Custom typefaces -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Custom theme: refreshed academic look -->
+<style>
+  :root {
+    --ink:        #16203a;
+    --primary:    #1f3a8a;
+    --primary-2:  #2f5bd0;
+    --accent:     #2f5bd0;
+    --accent-soft:#eef2fc;
+    --muted:      #5f6b85;
+    --surface:    #f6f7fb;
+    --line:       #e6e9f2;
+    --bg:         #ffffff;
+    --display: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+
+  /* ---------- Base ---------- */
+  body {
+    font-family: var(--body);
+    color: var(--ink);
+    background: var(--bg);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  #main { max-width: 1280px; }
+
+  .page__content { font-size: 1rem; line-height: 1.75; color: #2b3554; }
+
+  .page__content a {
+    color: var(--primary-2);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(47, 91, 208, 0.28);
+    transition: color .15s ease, border-color .15s ease, background-color .15s ease;
+  }
+  .page__content a:hover {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+
+  /* Lead paragraphs (the bio) */
+  .page__content > p {
+    color: #2b3554;
+    font-size: 1.04rem;
+    line-height: 1.8;
+  }
+
+  /* ---------- Section headings ---------- */
+  .page__content h1 {
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: 1.9rem;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+    margin: 1.1em 0 0.55em;
+    padding-bottom: 0.28em;
+    border-bottom: 1px solid var(--line);
+    position: relative;
+  }
+  .page__content h1::after { display: none; }
+  .page__content > h1:first-of-type { margin-top: 0.7em; }
+  .page__content > p:first-of-type { margin-top: 0.2em; }
+
+  /* ---------- Lists ---------- */
+  .page__content > ul {
+    list-style: disc;
+    padding-left: 1.25em;
+    margin: 1em 0;
+    border-left: 0;
+  }
+  .page__content > ul > li {
+    padding: 0;
+    margin: 0 0 0.45em;
+  }
+  .page__content > ul > li::before { display: none; }
+
+  /* Date badge (the leading *date* rendered as <em>) */
+  .page__content > ul > li > em:first-child {
+    font-style: normal;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    color: var(--muted);
+    background: transparent;
+    padding: 0;
+    font-size: 0.9em;
+    margin-right: 0.4em;
+    white-space: nowrap;
+  }
+
+  /* ---------- Publications ---------- */
+  .paper-box {
+    border: 0;
+    border-bottom: 1px solid var(--line);
+    border-radius: 0;
+    padding: 1.75em 0;
+    margin: 0;
+    background: transparent;
+    transition: none;
+  }
+  .paper-box:hover {
+    transform: none;
+    box-shadow: none;
+    border-color: var(--line);
+  }
+  .paper-box .paper-box-image img {
+    border-radius: 4px;
+    box-shadow: none;
+    transition: none;
+  }
+  .paper-box:hover .paper-box-image img { transform: none; }
+
+  .paper-box .paper-box-text > p:first-child a,
+  .paper-box .paper-box-text a[href*="arxiv"],
+  .paper-box .paper-box-text > p:first-child {
+    font-weight: 600;
+  }
+  .paper-box .paper-box-text > p:first-child {
+    font-family: var(--display);
+    font-size: 1.12rem;
+    line-height: 1.4;
+    margin-bottom: 0.35em;
+    color: var(--ink);
+  }
+  .paper-box .paper-box-text > p:first-child a {
+    color: var(--ink);
+    border-bottom: 2px solid transparent;
+  }
+  .paper-box .paper-box-text > p:first-child a:hover {
+    color: var(--primary-2);
+    border-bottom-color: var(--accent);
+  }
+  /* Author line */
+  .paper-box .paper-box-text > p:nth-child(2) {
+    font-size: 0.92rem;
+    color: var(--muted);
+    margin-bottom: 0.25em;
+  }
+  .paper-box .paper-box-text > p:nth-child(2):has(+ ul) {
+    margin-bottom: 0.45em;
+  }
+  .paper-box .paper-box-text > p:nth-child(3) { margin-bottom: 0.25em; }
+  .paper-box .paper-box-text strong { color: var(--ink); }
+  /* Bullet highlights inside a paper */
+  .paper-box .paper-box-text ul {
+    margin-top: 0.25em;
+    padding-left: 1.1em;
+  }
+  .paper-box .paper-box-text li {
+    font-size: 0.92rem;
+    color: #4a5573;
+    line-height: 1.6;
+    margin-bottom: 0.25em;
+  }
+  /* Resource links row (HF / GitHub / etc.) */
+  .paper-box .paper-box-text a {
+    border-bottom-color: rgba(47, 91, 208, 0.25);
+  }
+
+  /* Conference label */
+  .badge {
+    position: absolute;
+    top: 0.6rem;
+    left: 0.6rem;
+    z-index: 1;
+    display: inline-block;
+    margin: 0;
+    padding: 0.2em 0.55em;
+    border-radius: 3px;
+    font-size: 0.75em;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background: var(--primary);
+    box-shadow: none;
+  }
+  .badge b { color: #fff; }
+
+  /* ---------- Sidebar / author card ---------- */
+  .sidebar .author__avatar img {
+    border-radius: 50%;
+    border: 1px solid var(--line);
+    box-shadow: none;
+    transition: none;
+  }
+  .sidebar .author__avatar img:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  .sidebar .author__name {
+    font-family: var(--display);
+    font-weight: 600;
+    color: var(--ink);
+    letter-spacing: -0.01em;
+  }
+  .author__bio {
+    color: var(--muted);
+    font-weight: 500;
+  }
+
+  .author__urls.social-icons {
+    padding-left: 0;
+  }
+  .author__urls.social-icons li {
+    display: flex;
+    align-items: baseline;
+    gap: 0.45em;
+    margin-bottom: 0.35em;
+    line-height: 1.5;
+    color: var(--muted);
+  }
+  .author__urls.social-icons .author__description {
+    display: block;
+    margin: 0.1em 0 0.7em;
+    padding-left: 0;
+  }
+  .author__urls.social-icons li:not(.author__description) {
+    margin-bottom: 0.35rem;
+  }
+  .author__urls.social-icons .author__meta {
+    margin-bottom: 0.75rem;
+  }
+  .author__urls.social-icons li:last-child {
+    margin-bottom: 0;
+  }
+  .author__urls.social-icons .author__meta > i,
+  .author__urls.social-icons a i {
+    flex: 0 0 1.3em;
+    width: 1.3em;
+    text-align: center;
+  }
+  .author__urls.social-icons a {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.45em;
+    color: var(--muted);
+    border-radius: 8px;
+    padding: 0;
+    transition: background-color .15s ease, color .15s ease;
+  }
+  .author__urls.social-icons a:hover {
+    color: var(--primary-2);
+    background: var(--surface);
+    text-decoration: none;
+  }
+  .author__urls.social-icons a i { color: var(--muted); }
+
+  /* ---------- Masthead ---------- */
+  .masthead { border-bottom: 1px solid var(--line); }
+  .masthead__menu .visible-links a { color: var(--ink); }
+  .greedy-nav a:hover { color: var(--primary-2); }
+  .greedy-nav .visible-links li:first-child a { color: var(--primary); font-weight: 600; }
+  .greedy-nav .visible-links a::before { background: var(--primary-2); height: 1px; }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width: 768px) {
+    .page__content h1 { font-size: 1.55rem; }
+    .paper-box { padding: 1.1em; }
+    .paper-box .paper-box-text > p:first-child { font-size: 1.04rem; }
+  }
+
+  /* ---------- Motion preferences ---------- */
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; }
+    .paper-box:hover { transform: none; }
+    .paper-box:hover .paper-box-image img { transform: none; }
+  }
+</style>
+
 <!-- end custom head snippets -->

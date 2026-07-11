@@ -14,7 +14,11 @@ layout: compress
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    <div id="main" role="main">
+    <ul class="skip-link">
+      <li><a class="screen-reader-shortcut" href="#main">Skip to main content</a></li>
+    </ul>
+
+    <main id="main" role="main" tabindex="-1">
       {% include sidebar.html %}
     
       <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
@@ -25,7 +29,7 @@ layout: compress
           </section>
         </div>
       </article>
-    </div>
+    </main>
 
     {% include scripts.html %}
 
